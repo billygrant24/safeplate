@@ -1,0 +1,53 @@
+<div class="row">
+    {% for recipe_batch in recipes.results|slice(2) %}
+        <div class="col-6">
+            {% for recipe in recipe_batch %}
+                <article class="card mb-3" style="max-width: 540px;">
+                    <div class="card-body">
+                        <header>
+                            <small class="card-subtitle mb-2 text-body-secondary">{{ recipe.site_name }}</small>
+                            <a href="{{ recipe.url }}" target="_blank" rel="noreferrer noopener nofollow">
+                                <h5 class="card-title">{{ recipe.name }}</h5>
+                            </a>
+                        </header>
+                        <main class="d-grid gap-2">
+                            <div class="card-text lh-sm">
+                                <small class="text-body-secondary">{{ recipe.description|truncate(200) }}</small>
+                            </div>
+                            <div class="d-grid gap-1 small">
+                                {% if recipe.allergens %}
+                                    <div class="card-text">
+                                        <strong>Allergens</strong>
+                                        <br>
+                                        {{ recipe.allergens|join(", ") }}
+                                    </div>
+                                {% endif %}
+                                {% if recipe.diet %}
+                                    <div class="card-text">
+                                        <strong>Diet</strong>:
+                                        <br>
+                                        {{ recipe.diet|join(", ") }}
+                                    </div>
+                                {% endif %}
+                                {% if recipe.cuisine %}
+                                    <div class="card-text">
+                                        <strong>Cuisine</strong>:
+                                        <br>
+                                        {{ recipe.cuisine|join(", ") }}
+                                    </div>
+                                {% endif %}
+                                {% if recipe.cook_time %}
+                                    <div class="card-text">
+                                        <strong>Prep Time</strong>
+                                        <br>
+                                        {{ recipe.cook_time }}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </main>
+                    </div>
+                </article>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SafePlate – Allergen-filtered recipe search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+<div class="px-4 py-5 mb-5 text-center bg-light">
+    <img class="d-block mx-auto mb-4" src="/static/images/logoipsum-226.svg" alt=""
+         width="72" height="57">
+    <h1 class="display-5 fw-bold text-body-emphasis">SafePlate</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+            Quickly find recipes that are suit your dietary needs and preferences.
+        </p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <form action="/" method="get">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h4 class="h6">Allergen Restrictions</h4>
+                        {% for allergen in allergens %}
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="{{ allergen }}"
+                                       id="allergen_{{ allergen|lower }}"
+                                       name="allergen" {{ "checked" if allergen in filters.allergen else "" }}>
+                                <label class="form-check-label" for="allergen_{{ allergen|lower }}">
+                                    {{ allergen }}
+                                </label>
+                            </div>
+                        {% endfor %}
+                    </li>
+                    {% if available_filters["diets"] %}
+                        <li class="list-group-item">
+                            <h4 class="h6">Dietary Preferences</h4>
+                            {% for diet in available_filters["diets"]|sort %}
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="{{ diet }}"
+                                           id="diet_{{ diet|lower }}"
+                                           name="diet" {{ "checked" if diet in filters.diet else "" }}>
+                                    <label class="form-check-label" for="diet_{{ diet|lower }}">
+                                        {{ diet }}
+                                    </label>
+                                </div>
+                            {% endfor %}
+                        </li>
+                    {% endif %}
+                    {% if available_filters["cuisines"] %}
+                        <li class="list-group-item">
+                            <h4 class="h6">Cuisines</h4>
+                            {% for cuisine in available_filters["cuisines"]|sort %}
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="{{ cuisine }}"
+                                           id="cuisine_{{ cuisine|lower }}"
+                                           name="cuisine" {{ "checked" if cuisine in filters.cuisine else "" }}>
+                                    <label class="form-check-label" for="cuisine_{{ cuisine|lower }}">
+                                        {{ cuisine }}
+                                    </label>
+                                </div>
+                            {% endfor %}
+                        </li>
+                    {% endif %}
+                    <li class="list-group-item">
+                        <h4 class="h6">Publishers</h4>
+                        {% for site_name in available_filters["site_names"]|sort %}
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="{{ site_name }}"
+                                       id="site_name_{{ site_name|lower }}"
+                                       name="site_name" {{ "checked" if site_name in filters.site_name else "" }}>
+                                <label class="form-check-label" for="site_name_{{ site_name|lower }}">
+                                    {{ site_name }}
+                                </label>
+                            </div>
+                        {% endfor %}
+                    </li>
+                    <li class="list-group-item">
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Apply Filters</button>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="col-9">
+            <div class="row align-items-end">
+                <div class="col">
+                    <h2 class="h4">Search Results</h2>
+                    <p>Found {{ recipes.total }} matches</p>
+                </div>
+                <div class="col">
+                    <nav aria-label="Recipe results pagination">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item {% if not prev_url %}disabled{% endif %}">
+                                <a class="page-link" {% if prev_url %}href="{{ prev_url }}"{% endif %}>
+                                    <i data-feather="arrow-left"></i>
+                                </a>
+                            </li>
+                            <li class="page-item {% if not next_url %}disabled{% endif %}">
+                                <a class="page-link" {% if next_url %}href="{{ next_url }}"{% endif %}>
+                                    <i data-feather="arrow-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="alert alert-warning d-flex align-items-center gap-3" role="alert">
+                <div>
+                    <i data-feather="alert-triangle"></i>
+                </div>
+                <div class="small">
+                    Allergen information has been derived from the recipe ingredients using a machine learning model. It
+                    may not be accurate. Please use your own judgement when deciding whether a recipe is safe.
+                </div>
+            </div>
+            {% include 'recipes.jinja' %}
+        </div>
+    </div>
+</div>
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Billy Grant</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://github.com/billygrant24/safeplate">
+                    <i data-feather="github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+<script>
+    feather.replace();
+</script>
+</body>
+</html>

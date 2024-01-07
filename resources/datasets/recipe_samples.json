@@ -1,0 +1,444 @@
+[
+    {
+        "_id": "dd69a569d17c16ed858fc2e603268e40283c62f31e4a8ea7c3dc8bc5c1e457e7",
+        "allergens": [
+            "Eggs",
+            "Fish",
+            "Sulphites"
+        ],
+        "cook_time": "Over 1 hour",
+        "cuisine": [],
+        "description": "This cleverly named dish, which gets its moniker from the spiky grains of rice that protrude from the meatballs, became popular during the Great Depression, when rice was often added to expensive ground meat as a way to \u201cstretch\u201d it. It\u2019s still a useful budget tip \u2014 or an easy way to eat a little less meat \u2014 and you might find you like these lighter meatballs even better than the traditional sort. Some recipes call for uncooked rice, but using cooked rice ensures that you won\u2019t end up with crunchy grains in an otherwise tender meatball. This recipe uses ground beef, but feel free to swap in ground turkey, pork or chicken. Like most tomato sauce-based dishes, these meatballs freeze well: Cool completely, then transfer to an airtight container and freeze for up to 3 months. Thaw overnight in the fridge and reheat on the stovetop, covered, over medium-low heat. Serve the meatballs with a simply cooked green vegetable, such as saut\u00e9ed spinach or steamed broccoli.",
+        "diet": [],
+        "image_url": "https://static01.nyt.com/images/2023/12/13/multimedia/LH-Porcupine-Meatballs-tjwk/LH-Porcupine-Meatballs-tjwk-square640.jpg",
+        "ingredients": [
+            "1 pound ground beef (preferably 20-percent fat)",
+            "1 cup cooked long-grain rice (see Tip)",
+            "1 large egg, beaten",
+            "1/3 cup finely chopped yellow onion",
+            "2 tablespoons chopped fresh parsley, plus more for serving",
+            "3 garlic cloves, minced (1 tablespoon)",
+            "1/2 teaspoon dried oregano",
+            "1 teaspoon kosher salt (such as Diamond Crystal)",
+            "1/4 teaspoon black pepper",
+            "3 tablespoons olive oil",
+            "1 (14-ounce) can tomato sauce",
+            "1 tablespoon Worcestershire sauce",
+            "1 teaspoon brown or granulated sugar",
+            "1/2 teaspoon sweet paprika"
+        ],
+        "name": "Porcupine Meatballs",
+        "site_name": "NYTimes Cooking",
+        "url": "https://cooking.nytimes.com/recipes/1024733-porcupine-meatballs"
+    },
+    {
+        "_id": "639ee24137db86322436216123187c365cd6e242036d2ae0f43d6062d656bbca",
+        "allergens": [
+            "Fish",
+            "Gluten",
+            "Milk",
+            "Nuts",
+            "Sulphites"
+        ],
+        "cook_time": "",
+        "cuisine": [],
+        "description": "A combination of cream cheese, blue cheese, and sharp cheddar cheese form the base of this appetizer inspired by Hickory Farms' iconic holiday cheeseball.",
+        "diet": [],
+        "image_url": "https://assets.bonappetit.com/photos/65569ec42801e74720d6e46a/16:9/w_4832,h_2718,c_limit/20231005-1223-HOWWEHOLIDAY-2806.jpg",
+        "ingredients": [
+            "\u00be cup sliced almonds",
+            "4 oz. cream cheese, room temperature",
+            "4 oz. sharp or extra-sharp cheddar, coarsely grated (about 1\u00bc cups)",
+            "1 oz. blue cheese, room temperature",
+            "3 Tbsp. ruby port",
+            "1 tsp. (or more) onion powder",
+            "\u00bd tsp. (or more) garlic powder",
+            "\u00bd tsp. Worcestershire sauce",
+            "\u00bd tsp. Diamond Crystal or \u00bc tsp. Morton kosher salt, plus more",
+            "\u00bc tsp. freshly ground pepper, plus more",
+            "Assorted crackers (for serving)"
+        ],
+        "name": "Port Wine Cheese Ball",
+        "site_name": "BonAppetit",
+        "url": "https://www.bonappetit.com/recipe/port-cheese-ball"
+    },
+    {
+        "_id": "1222cc72d8a79a5c6613350f93250a74144582100fd50d4fd7068e38a19e3dab",
+        "allergens": [
+            "Gluten",
+            "Milk"
+        ],
+        "cook_time": "Over 1 hour",
+        "cuisine": [
+            "Italian"
+        ],
+        "description": "These pizzas are super quick to put together, whether you make our speedy no-prove dough or use a naan or flatbread as a base. Ideal as a WFH lunch or speedy dinner on busy weeknights.",
+        "diet": [],
+        "image_url": "https://food-images.files.bbci.co.uk/food/recipes/air_fryer_pizza_15299_16x9.jpg",
+        "ingredients": [
+            "400g tin plum tomatoes",
+            "300g/10\u00bdoz self-raising flour, plus extra for dusting",
+            "1 tsp baking powder",
+            "\u00bd tsp salt",
+            "300g/10\u00bdoz plain yoghurt",
+            "4 sprays olive oil spray",
+            "toppings of your choice, such as olives, sliced red onion, artichoke or ham (optional)",
+            "200g/7oz firm mozzarella cheese, grated",
+            "rocket leaves, to serve (optional)"
+        ],
+        "name": "Air Fryer Pizza",
+        "site_name": "BBCFood",
+        "url": "https://www.bbc.co.uk/food/recipes/air_fryer_pizza_15299"
+    },
+    {
+        "_id": "4eaeb112601ceb7a979b8fa7175d98ce537cf598db5c545c59e9187f91f54b76",
+        "allergens": [
+            "Milk"
+        ],
+        "cook_time": "Over 1 hour",
+        "cuisine": [
+            "Indian"
+        ],
+        "description": "Aloo paratha is a staple in the north, east and west of India. These flatbreads are stuffed with spiced potato, ginger, chilli and fresh coriander, before being cooked in ghee or butter.",
+        "diet": [],
+        "image_url": "https://food-images.files.bbci.co.uk/food/recipes/aloo_paratha_63368_16x9.jpg",
+        "ingredients": [
+            "300g/10\u00bdoz chapati flour (atta) or wholemeal flour, plus extra for dusting",
+            "pinch of salt",
+            "3 tbsp ghee, or vegetable oil",
+            "350g/12oz potatoes, peeled and diced",
+            "6cm/2\u00bdin ginger, coarsely grated",
+            "1 green bird's-eye chilli, finely chopped",
+            "2 tbsp finely chopped coriander leaves",
+            "3 tsp chaat masala",
+            "\u00bd tsp mild chilli powder",
+            "salt, to taste",
+            "butter or ghee, for frying"
+        ],
+        "name": "Aloo Paratha",
+        "site_name": "BBCFood",
+        "url": "https://www.bbc.co.uk/food/recipes/aloo_paratha_63368"
+    },
+    {
+        "_id": "c13a2a05277e8a5a6c556dab0efa990eab50f360706ea3415bf2c11f2d61df6f",
+        "allergens": [
+            "Eggs",
+            "Gluten",
+            "Milk"
+        ],
+        "cook_time": "",
+        "cuisine": [],
+        "description": "Simple but party-worthy, this tart features a tender shortbread press-in crust and bright custardy filling that sets on top while it bakes.",
+        "diet": [],
+        "image_url": "https://assets.bonappetit.com/photos/63a20150986f9dbe3b1df840/16:9/w_3743,h_2105,c_limit/1220-citrus-pie-lede-lede.jpg",
+        "ingredients": [
+            "1\u00bd cups (188 g) all-purpose flour",
+            "\u2153 cup (37 g) powdered sugar",
+            "2 Tbsp. poppy seeds",
+            "\u00bd tsp. Diamond Crystal or \u00bc tsp. Morton kosher salt",
+            "\u00bd cup (1 stick) chilled unsalted butter, cut into pieces",
+            "1 large egg yolk",
+            "Zest of 1 large lemon",
+            "1\u00bc cups (250 g) granulated sugar",
+            "2 large eggs",
+            "1 large egg yolk",
+            "\u00bd cup (1 stick) unsalted butter, melted, slightly cooled",
+            "\u2153 cup fresh lemon juice",
+            "\u00bd tsp. Diamond Crystal or \u00bc tsp. Morton kosher salt",
+            "2 Tbsp. all-purpose flour",
+            "Powdered sugar (for serving)",
+            "A 9\"-diameter tart pan with removable bottom"
+        ],
+        "name": "Lemon-Poppy Seed Tart",
+        "site_name": "BonAppetit",
+        "url": "https://www.bonappetit.com/recipe/lemon-poppy-seed-tart"
+    },
+    {
+        "_id": "547c43a5e17b6a04aed56bbed4440ae1a06faa0c8f7747ac1385dd3fe36265bd",
+        "allergens": [
+            "Sesame",
+            "Soybeans"
+        ],
+        "cook_time": "",
+        "cuisine": [],
+        "description": "This vegan twist on a lamb sausage hummus bowl features a trio of textures\u2014creamy, crisp, and meaty\u2014that will keep you coming back for more.",
+        "diet": [],
+        "image_url": "https://assets.bonappetit.com/photos/6436eb934c497b684ece7fe9/16:9/w_6303,h_3545,c_limit/20230221-0523-WEEKNIGHT-VEGAN-13131.jpg",
+        "ingredients": [
+            "4 garlic cloves",
+            "2 15-oz. cans chickpeas, rinsed",
+            "\u2153 cup tahini",
+            "\u00bc cup plus 2 Tbsp. fresh lemon juice",
+            "2 tsp. Diamond Crystal or 1\u00bc tsp. Morton kosher salt, plus more",
+            "Freshly ground pepper",
+            "\u2154 cup extra-virgin olive oil, divided, plus more for drizzling",
+            "2 8-oz. blocks tempeh, crumbled",
+            "2 Tbsp. tomato paste",
+            "2 tsp. fennel seeds",
+            "2 tsp. ground cumin",
+            "1\u00bd tsp. smoked paprika",
+            "\u00bd tsp. cayenne pepper",
+            "1 large fennel bulb, fronds reserved, bulb halved, cored, thinly\nsliced",
+            "1 small red onion, thinly sliced"
+        ],
+        "name": "Hummus Bowls With Merguez-Spiced Tempeh",
+        "site_name": "BonAppetit",
+        "url": "https://www.bonappetit.com/recipe/hummus-bowls-with-merguez-spiced-tempeh"
+    },
+    {
+        "_id": "d0f202e9252533e12c656db2f3c5f96580bea596302aad035bb5e82fa0a421af",
+        "allergens": [
+            "Gluten",
+            "Milk"
+        ],
+        "cook_time": "Over 10 minutes",
+        "cuisine": [],
+        "description": "A most requested recipe for juicy burgers, whether you grill or pan fry them. Dissolving the salt and pepper in ice water distributes the spices evenly throughout the meat just as some sausage makers do when making sausage. Cook time depends on how well done you like your meat.",
+        "diet": [],
+        "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/98/99/3/picaaj60c.jpg",
+        "ingredients": [
+            "salt and pepper",
+            "2   tablespoons    ice water",
+            "1   lb    ground chuck",
+            "2 -3      crushed ice cubes"
+        ],
+        "name": "Juicy Hamburgers",
+        "site_name": "Food",
+        "url": "https://www.food.com/recipe/juicy-hamburgers-98993"
+    },
+    {
+        "_id": "6d11f21adab2ac96c3963642f6d7951d8993d3e4f49f764c448b5435b4b7b025",
+        "allergens": [
+            "Gluten",
+            "Milk",
+            "Sulphites"
+        ],
+        "cook_time": "Over 2 hours",
+        "cuisine": [
+            "Italian"
+        ],
+        "description": "Matt Tebbutt makes this classic cheesy aubergine dish that's perfect for the weekend.",
+        "diet": [],
+        "image_url": "",
+        "ingredients": [
+            "1 litre/1\u00be pint tomato passata",
+            "1 garlic clove, crushed",
+            "1 sprig rosemary",
+            "3\u20134 tbsp balsamic vinegar",
+            "2 tsp olive oil",
+            "4 aubergines, cut into long slices",
+            "2 beef tomatoes, sliced",
+            "1 bunch fresh oregano, leaves only",
+            "1 bunch fresh basil, leaves only",
+            "2 balls mozzarella, sliced",
+            "60g/2\u00bcoz Parmesan, grated",
+            "60g/2\u00bcoz pecorino, grated",
+            "2 handfuls breadcrumbs (not Japanese panko\u00a0breadcrumbs)",
+            "salt and freshly ground black pepper",
+            "80ml/2\u00bdfl oz double cream",
+            "50g/1\u00beoz Parmesan, grated",
+            "50g/1\u00beoz pecorino, grated",
+            "2 tbsp fresh oregano, roughly chopped",
+            "2 tbsp fresh basil, roughly chopped",
+            "selection salad leaves",
+            "3 tbsp olive oil",
+            "1 tbsp white wine vinegar"
+        ],
+        "name": "Aubergine Parmigiana",
+        "site_name": "BBCFood",
+        "url": "https://www.bbc.co.uk/food/recipes/aubergine_parmigiana_93465"
+    },
+    {
+        "_id": "3318e86d3b21ad1dec44a4fe4d96d3992c9be602a9ae88a3dbc7d308898aab0c",
+        "allergens": [
+            "Eggs",
+            "Fish",
+            "Soybeans",
+            "Sulphites"
+        ],
+        "cook_time": "Over 2 hours",
+        "cuisine": [
+            "Japanese"
+        ],
+        "description": "Though soba usually refers to buckwheat noodles, Okinawan soba uses wheat noodles that more closely resemble ramen. The chef Steven Pursley, whose family comes from the island prefecture off the Southern coast of mainland Japan, makes his own noodles from scratch. You can use store-bought fresh ramen noodles or another thicker Asian egg noodle for this soup, which gets its flavor from a delicate pork and bonito broth. You can find the noodles, kombu, sake, mirin, bonito, fish cake and red pickled ginger at Japanese markets or well-stocked Asian grocery stores.",
+        "diet": [],
+        "image_url": "https://static01.nyt.com/images/2023/12/26/multimedia/26JAPANESE-NEW-YEAR-rex2-klvh/26JAPANESE-NEW-YEAR-rex2-klvh-square640.jpg",
+        "ingredients": [
+            "1/2 ounce kombu",
+            "2 pounds pork riblets",
+            "2 pounds skinless fresh pork belly, cut in half",
+            "2 cups soy sauce, plus more for seasoning",
+            "1 cup sake",
+            "1 cup mirin",
+            "3/4 cup dark brown sugar (see Tip)",
+            "6 garlic cloves, peeled",
+            "1 (3-inch) piece fresh ginger, sliced into thick coins",
+            "2 ounces bonito (skipjack tuna) flakes (katsuobushi)",
+            "Salt",
+            "4 (10-ounce) packages fresh ramen noodles or other thicker Asian egg noodles",
+            "6 ounces fish cake (kamaboko), cut into 16 (\u00bc-inch-thick) slices",
+            "Red pickled ginger and thinly sliced scallions, for topping",
+            "Shichimi togarashi, for sprinkling (optional)"
+        ],
+        "name": "Okinawan Soba",
+        "site_name": "NYTimes Cooking",
+        "url": "https://cooking.nytimes.com/recipes/1024952-okinawan-soba"
+    },
+    {
+        "_id": "60e8af7d9e02f6eb5d7922211cc00f5a2543fc2c10cf67ae1527bde95224a369",
+        "allergens": [
+            "Celery",
+            "Eggs",
+            "Gluten",
+            "Milk"
+        ],
+        "cook_time": "Over 30 minutes",
+        "cuisine": [],
+        "description": "I found this recipe in the Taste of Home Garden and Fresh Recipes collection. I made these when we had company and they were a hit! I will continue to make this unique side dish time and time again!",
+        "diet": [],
+        "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/98/88/7/picVQA5y0.jpg",
+        "ingredients": [
+            "1/2  cup   chopped onion",
+            "1   cup   chopped celery",
+            "1/2  cup    butter",
+            "3 1/2  cups    herb-seasoned stuffing cubes",
+            "3   cups   cooked whole kernel corn",
+            "3       eggs, beaten",
+            "1/2  cup    water",
+            "1/2  teaspoon    salt",
+            "1/4  teaspoon    pepper"
+        ],
+        "name": "Tasty Baked Corn Balls",
+        "site_name": "Food",
+        "url": "https://www.food.com/recipe/tasty-baked-corn-balls-98887"
+    },
+    {
+        "_id": "1ef62b4b8a3ce5716538a963e475da54b0b221d9d6c6dc076aa9e6e50881f3ff",
+        "allergens": [
+            "Eggs",
+            "Gluten",
+            "Sulphites"
+        ],
+        "cook_time": "Over 2 hours",
+        "cuisine": [
+            "British"
+        ],
+        "description": "",
+        "diet": [],
+        "image_url": "",
+        "ingredients": [
+            "500g/1Ib 2oz small currants",
+            "140g/5oz raisins",
+            "140g/5oz mixed peel",
+            "500ml/17fl oz bottle strong bottled beer, such as Black Sheep Brewery Riggwelter Strong Ale",
+            "180g/7oz soft dark brown sugar",
+            "150g/5\u00bdoz self-raising flour",
+            "180g/7oz wholemeal self-raising flour",
+            "3 tsp mixed spice",
+            "3 free-range eggs"
+        ],
+        "name": "Ale Fruit Loaf",
+        "site_name": "BBCFood",
+        "url": "https://www.bbc.co.uk/food/recipes/alefruitloaf_83744"
+    },
+    {
+        "_id": "29ba33f89de96a0765f6c897b7869add0851d386f63b1a1397fd4e5206877e99",
+        "allergens": [],
+        "cook_time": "",
+        "cuisine": [],
+        "description": "If you can\u2019t find coconut vinegar for this collard greens recipe, use 2 Tbsp. apple cider vinegar instead.",
+        "diet": [],
+        "image_url": "https://assets.bonappetit.com/photos/58efa5b6f9ef2707d8e770bb/16:9/w_2685,h_1510,c_limit/sauteed-collard-greens-and-sweet-onion-with-paprika.jpg",
+        "ingredients": [
+            "\u00bc cup olive oil",
+            "1 medium sweet onion, such as Vidalia or Maui, thinly sliced",
+            "1 teaspoon paprika",
+            "Kosher salt",
+            "12 cups thinly sliced collard green leaves (from about 3 small or 2 large bunches)",
+            "3 tablespoons coconut vinegar"
+        ],
+        "name": "Saut\u00e9ed Collard Greens And Sweet Onion With Paprika",
+        "site_name": "BonAppetit",
+        "url": "https://www.bonappetit.com/recipe/sauteed-collard-greens-and-sweet-onion-with-paprika"
+    },
+    {
+        "_id": "79d3b179459cc7799781fdc17f2b6cb9b1903364039b035407afa194f123e3d3",
+        "allergens": [
+            "Gluten",
+            "Milk"
+        ],
+        "cook_time": "",
+        "cuisine": [],
+        "description": "Prepare this festive punch before your guests arrive for a stress-free party. It uses our mince pie rum, but can also be made with spiced rum",
+        "diet": [],
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/10/Festive-rum-and-ginger-punch-ec85ce7.jpg?resize=768,574",
+        "ingredients": [
+            "ice",
+            "300ml mince pie rum (see below for the recipe, or use spiced rum)",
+            "150ml dark rum",
+            "3 tbsp grenadine",
+            "4 limes , juiced",
+            "10 dried or fresh  orange slices",
+            "1 litre ginger beer"
+        ],
+        "name": "Festive Rum & Ginger Punch",
+        "site_name": "BBCGoodFood",
+        "url": "https://www.bbcgoodfood.com/recipes/festive-rum-ginger-punch"
+    },
+    {
+        "_id": "ee4583b995054aa618634e5f1a949e72ec2b155663a2b3310dfcb7ecac7f2c10",
+        "allergens": [
+            "Celery",
+            "Eggs",
+            "Gluten"
+        ],
+        "cook_time": "Over 1 hour",
+        "cuisine": [
+            "Italian"
+        ],
+        "description": "Prepare this easy homemade lasagne ahead of time and save in the freezer, uncooked, for when you need it during a busy week. Just bake for an extra 45 mins",
+        "diet": [],
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/11/Lasagne-d4cb438.jpg?resize=768,574",
+        "ingredients": [
+            "2 olive oil, plus extra for the dish",
+            "750g lean beef mince",
+            "90g pack prosciutto",
+            "800g passata or half our basic tomato sauce",
+            "200ml hot beef stock",
+            "nutmeg",
+            "300g fresh lasagne sheets",
+            "white sauce (find a recipe in the method, or use shop-bought)",
+            "125g ball mozzarella, torn into thin strips"
+        ],
+        "name": "Classic Lasagne",
+        "site_name": "BBCGoodFood",
+        "url": "https://www.bbcgoodfood.com/recipes/classic-lasagne-0"
+    },
+    {
+        "_id": "491731f3c35254c4d8ab18d141761c2e7a099b501bd9e6e63e309d0d199db86b",
+        "allergens": [
+            "Eggs",
+            "Gluten",
+            "Milk"
+        ],
+        "cook_time": "Over 30 minutes",
+        "cuisine": [],
+        "description": "A fettucine dish with a special summer treat of fresh asparagus spears. Ready in no time, and such a luxury.",
+        "diet": [],
+        "image_url": "https://food-images.files.bbci.co.uk/food/recipes/asparaguswithfettucc_88830_16x9.jpg",
+        "ingredients": [
+            "500g/1lb 2oz fettuccine",
+            "2 tbsp vegetable oil",
+            "300g/11oz smoked bacon or pancetta, cut into batons",
+            "1 tsp freshly ground black pepper",
+            "12 spears asparagus, blanched",
+            "3 large free-range eggs",
+            "1 tbsp olive oil",
+            "110g/4oz parmesan, freshly grated, plus extra, to serve",
+            "handful fresh parsley, chopped"
+        ],
+        "name": "Fettuccine With Asparagus And Smoky Bacon",
+        "site_name": "BBCFood",
+        "url": "https://www.bbc.co.uk/food/recipes/asparaguswithfettucc_88830"
+    }
+]
