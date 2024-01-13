@@ -22,6 +22,7 @@ isodate = "*"
 lxml = "*"
 matplotlib = "*"
 seaborn = "*"
+prettytable = "*"
 
 [dev-packages]
 watchfiles = "*"

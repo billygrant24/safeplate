@@ -2,6 +2,7 @@ from starlette.requests import Request
 from starlette.responses import JSONResponse
 from starlette.templating import Jinja2Templates
 
+from app.config import WEBHOOK_API_KEY
 from app.ml import AllergenDetector
 from app.models import Recipe, AllergenGroup, RecipeFilters
 from app.services import RecipeService
@@ -56,6 +57,10 @@ class Endpoints:
         )
 
     async def sync_recipe(self, request: Request):
+        # Check if the request is authorized via Bearer token
+        if request.headers.get("Authorization") != f"Bearer {WEBHOOK_API_KEY}":
+            return JSONResponse({"error": "Unauthorized"}, 401)
+
         try:
             # Parse the recipe from the request body
             json = await request.json()

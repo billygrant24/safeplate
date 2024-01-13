@@ -8,7 +8,7 @@ from app.models import RecipeWebsite
 from app.parsers import SchemaOrgParser
 from app.utils import check_robots, scrape_html, crawl_sitemap
 
-MAX_LINKS = 400
+MAX_LINKS = 1000
 
 RECIPE_SITES = [
     RecipeWebsite(
